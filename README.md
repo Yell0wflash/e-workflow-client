@@ -53,12 +53,12 @@ Download the project from github either by using `curls` or `ssh`
   CLIENT APP
 
 ```
-    C:/users/benrobo> curl https://github.com/Yell0wflash/e-workflow-client.git
+    C:/users/flash> curl https://github.com/Yell0wflash/e-workflow-client.git
 ```
   `GIT SSH`
 
 ```
-  C:/users/benrobo/desktop> git clone https://github.com/Yell0wflash/e-workflow-client.git
+  C:/users/flash/desktop> git clone https://github.com/Yell0wflash/e-workflow-client.git
   
 ```
   This would download this project in `desktop` directory having the name `e-workflow-server` and `e-workflow-client` if that where youre executing this command from.
@@ -72,7 +72,7 @@ Download the project from github either by using `curls` or `ssh`
    C:/user/Desktop/e-workflow-client>
 
    // linux
-   benrobo@benrobo:~/Desktop/e-workflow-client$
+   flash@flash:~/Desktop/e-workflow-client$
 ```
 
 3. Install all Dependencies.
@@ -118,7 +118,7 @@ But holdon a bit, we cant just run this fullstack application without the need o
    C:/user/Desktop/e-workflow-server>
 
    // linux
-   benrobo@benrobo:~/Desktop/e-workflow-server$
+   flash@flash:~/Desktop/e-workflow-server$
 ```
 
 3. Now installed all the dependencies present in the project `package.json` file using
@@ -128,7 +128,7 @@ But holdon a bit, we cant just run this fullstack application without the need o
    C:/user/Desktop/e-workflow-server> npm install
 
    // linux
-   benrobo@benrobo:~/Desktop/e-workflow-server$ npm install
+   flash@flash:~/Desktop/e-workflow-server$ npm install
 ```
 
 Doing this would install all the dependencies which was used in this project.
@@ -147,7 +147,7 @@ After installation was successfull, kindly check if postgresql is enabled global
 //windows
 C:/> psql -U postgres // the name which was set when installing it.
 // Linux
-benrobo@benrobo:~/$ sudo -i -u postgres psql
+flash@flash:~/$ sudo -i -u postgres psql
 ```
 
 Doing this would show the below image if everything works successfully.
@@ -296,13 +296,13 @@ Navigate to where the `e-workflow` and `e-workflow-server` was downloaded and ru
     ... Running the client app
 
     // e-workflow client
-    C:/users/benrobo/Desktop/e-workflow-client> npm start
+    C:/users/flash/Desktop/e-workflow-client> npm start
 
     // this should spin up the local react server in your browser. with the url of http://localhost:3000
 
     ... Running the backend api server
         // e-workflow client
-    C:/users/benrobo/Desktop/e-workflow-server> npm start
+    C:/users/flash/Desktop/e-workflow-server> npm start
 
     // this should spin up the local nodejs server in your terminal.
 
