@@ -5,15 +5,15 @@ This is an electronic workflow system system built for one of `babcock final yea
 ![npm bundle size](https://img.shields.io/bundlephobia/min/react)
 -------
 
-<img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/dashboard.png" />
+<img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/dashboard.png" />
 
-<img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/grant%20request.png" />
+<img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/grant%20request.png" />
 
-<img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/collab.png" />
+<img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/collab.png" />
 
-<img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/submission.png" />
+<img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/submission.png" />
 
-<img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/document-sub.png" />
+<img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/document-sub.png" />
 
 
 ----
@@ -53,12 +53,12 @@ Download the project from github either by using `curls` or `ssh`
   CLIENT APP
 
 ```
-    C:/users/benrobo> curl https://github.com/Benrobo/e-workflow-client.git
+    C:/users/benrobo> curl https://github.com/Yell0wflash/e-workflow-client.git
 ```
   `GIT SSH`
 
 ```
-  C:/users/benrobo/desktop> git clone https://github.com/Benrobo/e-workflow-client.git
+  C:/users/benrobo/desktop> git clone https://github.com/Yell0wflash/e-workflow-client.git
   
 ```
   This would download this project in `desktop` directory having the name `e-workflow-server` and `e-workflow-client` if that where youre executing this command from.
@@ -108,7 +108,7 @@ But holdon a bit, we cant just run this fullstack application without the need o
 
 1. Download or clone the backend api logic using the instructions below
 
-   - [x] Download the project from here [e-workflow-server](https://github.com/Benrobo/e-workflow-server.git)
+   - [x] Download the project from here [e-workflow-server](https://github.com/Yell0wflash/e-workflow-server.git)
 
 2. After downloading the project into your pc, move into the directory where you downloded it, in my case it
 
@@ -310,7 +310,7 @@ Navigate to where the `e-workflow` and `e-workflow-server` was downloaded and ru
 
 you should be presented with this screen
 
-<img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/login.PNG">
+<img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/login.PNG">
 
 Now you're ready to navigate through the site.
 
@@ -318,8 +318,8 @@ Now you're ready to navigate through the site.
 
 If any issue was met during this process simply create an issue on the issues github tab
 
-- [x] [e-workflow-client: issue tab](https://github.com/Benrobo/e-workflow-client/issues)
-- [x] [babcock-api: issue tab](https://github.com/Benrobo/e-workflow-server/issues)
+- [x] [e-workflow-client: issue tab](https://github.com/Yell0wflash/e-workflow-client/issues)
+- [x] [babcock-api: issue tab](https://github.com/Yell0wflash/e-workflow-server/issues)
 
 
 ## Some Backend Configurations.
@@ -367,10 +367,10 @@ As you well know that this system allow sending of mails using Gmail smtp mail s
    
    This would open up a page which look like the picture below.
 
-   <img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/admin-signup.PNG">
+   <img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/admin-signup.PNG">
 
 7. After registering and logging in as admin, simply move to a section called `send mail` page. This would open up a new page which looks like the picture below.
 
-   <img src="https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/mail.PNG">
+   <img src="https://raw.githubusercontent.com/Yell0wflash/e-workflow-client/main/readmeImg/mail.PNG">
 
 8. Try sending to your own mail address just to test it out. If rit works, then you know youve `SUCESSFULLY` setup sending of mail from this application.
